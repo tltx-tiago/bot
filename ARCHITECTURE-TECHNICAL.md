@@ -64,9 +64,9 @@ graph TD
 
     subgraph "Nuvem (Azure)"
         B[Azure Active Directory]
-        C(Nginx)
-        D[Backend (Node.js/Express)]
-        E[Banco de Dados (SQL Server)]
+        C[Nginx]
+        D[Backend Node.js/Express]
+        E[Banco de Dados SQL Server]
     end
 
     A -- 1. Login via MSAL --> B;
